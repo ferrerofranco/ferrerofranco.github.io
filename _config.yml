@@ -81,8 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Franco Ferrero"
-  avatar           : "profile.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  avatar           : "profile.png"
+  bio              : "I’m a trustworthy, able, affable, meticulous and capable Systems Engineer. I love to learn and I do well working with others as a part of a team. I can do my Job in a prompt and competent manner. 
+I’m interested in being part of a project that I can feel proud of, and in creating an environment in which both my coworkers and I, can grow personally and professionally with the support of each other."
   location         : "Rosario, Santa Fe, Argentina"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
