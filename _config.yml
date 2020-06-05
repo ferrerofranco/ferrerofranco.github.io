@@ -82,13 +82,12 @@ analytics:
 author:
   name             : "Franco Ferrero"
   avatar           : "profile.png"
-  bio              : "I’m a trustworthy, able, affable, meticulous and capable Systems Engineer. I love to learn and I do well working with others as a part of a team. I can do my Job in a prompt and competent manner. 
-I’m interested in being part of a project that I can feel proud of, and in creating an environment in which both my coworkers and I, can grow personally and professionally with the support of each other."
+  bio              : "Hi! I'm Franco and I love data! I feel it can tell us almost anything if we ask the right questions."
   location         : "Rosario, Santa Fe, Argentina"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : info@ferrerofranco.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,9 +100,9 @@ I’m interested in being part of a project that I can feel proud of, and in cre
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/ing-ferrero-franco/
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
