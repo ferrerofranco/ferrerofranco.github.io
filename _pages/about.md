@@ -1,11 +1,11 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Hello there!"
+excerpt: "Hello there!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Under construction
+This is a simple page to let you get to know me a little bit better and to share some notebooks I managed to make in my free time, in case you find them interesting and/or useful!  Please use the above navigation bar to... well, navigate!
