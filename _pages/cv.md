@@ -30,23 +30,23 @@ Worked for international clients in multiple sectors such as energy distribution
 ### **2020**
 ## Deep Learning Specialization, **Deeplearning&#46;ai**
 ##### Coursera
-# 
-# 
+# &nbsp;
+# &nbsp;
 ### **2019**
 ## Machine Learning, **Stanford University**
 ##### Coursera
-# 
-# 
+# &nbsp;
+# &nbsp;
 ### **2010 – 2016**
 ## Information systems engineering, **Universidad Tecnologica Nacional**
 ##### Facultad Regional Rosario, Rosario, Santa Fe
-# 
-# 
+# &nbsp;
+# &nbsp;
 ### **2004 – 2009**
 ## Bachelor&#39;s in economics and organizational management, **Paraná High School**
 ##### Paraná, Entre Ríos
-# 
-# 
+# &nbsp;
+# &nbsp;
 # TOOLS USED
 - Jupyter Notebooks
 - Python (Keras/Pandas/Numpy/Scikit-learn)
