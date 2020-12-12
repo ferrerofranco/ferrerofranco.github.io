@@ -19,7 +19,6 @@ I&#39;m a trustworthy, able, affable, meticulous and capable Systems Engineer. I
 Leading and coordinating the expansion of the Data Warehouse to new branches, the implementation data quality control using SQL Server, Analysis Services and Power BI, and the improvement of pipeline architecture for downstream analysis. Also being part of the company&#39;s Mentorship program.
 
 ## Analytics &amp; AI Consultant, **Oz**
-
 Working as an analyst and developer as part of an international, multi-cultural team for a global insurance corporation. Tackling a major, high complexity, financial Data Warehousing project.
 Involving dozens of companies and data sources. Transforming and adapting data mainly through SSIS. Ensuring data integrity and quality for downstream consumption through BI tools.
 
@@ -31,24 +30,23 @@ Worked for international clients in multiple sectors such as energy distribution
 ### **2020**
 ## Deep Learning Specialization, **Deeplearning&#46;ai**
 ##### Coursera
-#
-#
+# 
+# 
 ### **2019**
 ## Machine Learning, **Stanford University**
 ##### Coursera
-#
-#
+# 
+# 
 ### **2010 – 2016**
-
 ## Information systems engineering, **Universidad Tecnologica Nacional**
 ##### Facultad Regional Rosario, Rosario, Santa Fe
-#
-#
+# 
+# 
 ### **2004 – 2009**
 ## Bachelor&#39;s in economics and organizational management, **Paraná High School**
 ##### Paraná, Entre Ríos
-#
-#
+# 
+# 
 # TOOLS USED
 - Jupyter Notebooks
 - Python (Keras/Pandas/Numpy/Scikit-learn)
