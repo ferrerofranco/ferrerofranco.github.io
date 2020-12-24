@@ -26,14 +26,14 @@ function getUserMediaSupported() {
       navigator.mediaDevices.getUserMedia);
   }
   
-  // If webcam supported, add event listener to button for when user
-  // wants to activate it to call enableCam function which we will 
-  // define in the next step.
-  if (getUserMediaSupported()) {
-    enableWebcamButton.addEventListener('click', enableCam);
-  } else {
-    console.warn('getUserMedia() is not supported by your browser');
-  }
+// If webcam supported, add event listener to button for when user
+// wants to activate it to call enableCam function which we will 
+// define in the next step.
+if (getUserMediaSupported()) {
+enableWebcamButton.addEventListener('click', enableCam);
+} else {
+console.warn('getUserMedia() is not supported by your browser');
+}
   
 // Enable the live webcam view and start classification.
 function enableCam(event) {
