@@ -13,8 +13,8 @@ collection: portfolio
 <style>
 #container {
 	margin: 0px auto;
-	width: 500px;
-	height: 375px;
+	width: 505px;
+	height: 380px;
 	border: 5px #333 solid;
 }
 #videoElement {
@@ -31,6 +31,12 @@ collection: portfolio
 	
 	</video>
 </div>
+
+<!-- Import TensorFlow.js library -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
+<!-- Load the coco-ssd model to use to recognize things in images -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+
 <script>
 var video = document.querySelector("#videoElement");
 
