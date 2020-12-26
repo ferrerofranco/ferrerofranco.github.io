@@ -37,24 +37,24 @@ console.warn('getUserMedia() is not supported by your browser');
 
 // Enable the live webcam view and start classification.
 function enableCam(event) {
-// Only continue if the COCO-SSD has finished loading.
-if (!model) {
-    return;
-}
+    // Only continue if the COCO-SSD has finished loading.
+    if (!model) {
+        return;
+    }
 
-// Hide the button once clicked.
-event.target.classList.add('removed');  
+    // Hide the button once clicked.
+    event.target.classList.add('removed');  
 
-// getUsermedia parameters to force video but not audio.
-const constraints = {
-    video: true
-};
+    // getUsermedia parameters to force video but not audio.
+    const constraints = {
+        video: true
+    };
 
-// Activate the webcam stream.
-navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
-    video.srcObject = stream;
-    video.addEventListener('loadeddata', predictWebcam);
-});
+    // Activate the webcam stream.
+    navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
+        video.srcObject = stream;
+        video.addEventListener('loadeddata', predictWebcam);
+    });
 }
 
 // Store the resulting model in the global scope of our app.
@@ -66,9 +66,9 @@ var model = undefined;
 // Note: cocoSsd is an external object loaded from our index.html
 // script tag import so ignore any warning in Glitch.
 cocoSsd.load().then(function (loadedModel) {
-model = loadedModel;
-// Show demo section now model is ready to use.
-demosSection.classList.remove('invisible');
+    model = loadedModel;
+    // Show demo section now model is ready to use.
+    demosSection.classList.remove('invisible');
 });
 
 var children = [];
