@@ -74,4 +74,4 @@ Going back to the original questions that started all this,
 
 Thats all! hope you found it interesting, thanks for reading!  
 
-If you'd like to contact me please do so [here](mailto:info@ferrerofranco.com)
+If you'd like to contact me please do so [here](mailto:info@ferrerofranco.com).
