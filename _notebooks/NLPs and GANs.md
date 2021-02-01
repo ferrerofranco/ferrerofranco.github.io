@@ -85,7 +85,7 @@ Note: Only the macaw image was generated with BigGAN, all others were generated 
 <br>
 <p style="text-align: center;">Generating phrase: <b>batman fighting crime</b></p>
 
-|  | Generated | Real Life |
+|  | Generated | Real Life <sup>*a game actually</sup> |
 | -- | -------- | --------- |
 |  | ![batman fighting crime A](https://ferrerofranco.github.io/images/06-A-batman%20fighting%20crime.png) | ![batman fighting crime B](https://ferrerofranco.github.io/images/06-B-batman%20fighting%20crime.jpg) |
 | VGG16 | **young boy is playing with ball in the air** | **young boy is playing with ball in the air** |
