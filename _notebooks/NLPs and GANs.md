@@ -1,6 +1,6 @@
 ---
 title: "202101 - NLPs and GANs"
-excerpt: "Using usupervised clustering to try and cluster personalities based on a personality test"
+excerpt: "Playing around with GANs and NLPs"
 collection: notebooks
 author_profile: True
 ---
