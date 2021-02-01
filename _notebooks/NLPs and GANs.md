@@ -38,29 +38,96 @@ As you can see, the VGG model seems to be on the upper spectrum of the reference
 Now for the results of the experiment! (I haven't uploaded the notebook that runs both models at the same time and gets the BLEU scores, but I might if requested).  
 Note: Only the macaw image was generated with BigGAN, all others were generated with SIREN.
 
+<br>
+<p style="text-align: center;">Generating phrase: <b>a cat eating a mouse</b></p>
 
-| Generating phrase | Generated | Real life |
-| ----------------- | --------- | --------- |
-| **a cat eating a mouse** | ![cat eating a mouse A](https://ferrerofranco.github.io/images/01-A-cat%20eating%20a%20mouse.png) | ![cat eating a mouse B](https://ferrerofranco.github.io/images/01-B-cat%20eating%20a%20mouse.jpg) |
-| - | VGG16: **young boy is playing with ball in the air** <br>Xception: **two boys are playing on the edge of carnival ride** | VGG16: **dog is running through the grass** <br>Xception: **dog is jumping over fallen tree** |
-| **a dog playing with a kid** | ![dog playing with a kid A](https://ferrerofranco.github.io/images/02-A-dog%20playing%20with%20a%20kid.png) | ![dog playing with a kid B](https://ferrerofranco.github.io/images/02-B-dog%20playing%20with%20a%20kid.jpg) |
-| - | VGG16: **two girls are playing in the water** <br>Xception: **man in black shirt and backpack is standing in front of glass store** | VGG16: **young boy is playing with ball in the air** <br>Xception: **dog is jumping over fallen tree** |
-| **a macaw flying over a forest** | ![macaw flying over a forest A](https://ferrerofranco.github.io/images/03-A-macaw%20flying%20over%20a%20forest.png) | ![macaw flying over a forest B](https://ferrerofranco.github.io/images/03-B-macaw%20flying%20over%20a%20forest.jpg) |
-| - | VGG16: **the man is sitting on the street with his arms in the air** <br>Xception: **man in red shirt and blue pants is walking on the sidewalk** | VGG16: **man in red shirt is standing on the street** <br>Xception: **man in red shirt is standing on bleachers in front of leafless trees** |
-| **a plane flying in the sky** | ![plane flying in the sky A](https://ferrerofranco.github.io/images/04-A-plane%20flying%20in%20the%20sky.png) | ![plane flying in the sky B](https://ferrerofranco.github.io/images/04-B-plane%20flying%20in%20the%20sky.jpg) |
-| - | VGG16: **dog is running through the grass** <br>Xception: **man in red shirt is cooking gun** | VGG16: **dog is running through the air to catch ball** <br>Xception: **dog is jumping over home** |
-| **a woman and a man in the beach** | ![woman and a man in the beach A](https://ferrerofranco.github.io/images/05-A-woman%20and%20a%20man%20in%20the%20beach.png) | ![woman and a man in the beach B](https://ferrerofranco.github.io/images/05-B-woman%20and%20a%20man%20in%20the%20beach.jpg) |
-| - | VGG16: **two girls are playing in the water** <br>Xception: **boy is jumping into the water** | VGG16: **two girls are playing in the water** <br>Xception: **two people are standing on the beach looking at something** |
-| **batman fighting crime** | ![batman fighting crime A](https://ferrerofranco.github.io/images/06-A-batman%20fighting%20crime.png) | ![batman fighting crime B](https://ferrerofranco.github.io/images/06-B-batman%20fighting%20crime.jpg) |
-| - | VGG16: **young boy is playing with ball in the air** <br>Xception: **man in black shirt and backpack is standing in front of skyscraper** | VGG16: **young boy is playing with ball in the air** <br>Xception: **man in red shirt is standing on the edge of bicycle** |
-| **an octopus on coral reef** | ![octopus on coral reef A](https://ferrerofranco.github.io/images/07-A-octopus%20on%20coral%20reef.png) | ![octopus on coral reef B](https://ferrerofranco.github.io/images/07-B-octopus%20on%20coral%20reef.jpg) |
-| - | VGG16: **man in red shirt is standing on the street** <br>Xception: **two people are standing in front of house** | VGG16: **man in red shirt is standing on the street** <br>Xception: **man in red shirt is standing on the edge of dock** |
-| **a palm tree on an island** | ![palm tree on an island A](https://ferrerofranco.github.io/images/08-A-palm%20tree%20on%20an%20island.png) | ![palm tree on an island B](https://ferrerofranco.github.io/images/08-B-palm%20tree%20on%20an%20island.jpg) |
-| - | VGG16: **dog is running through the grass** <br>Xception: **man in red shirt is standing on the edge of dock** | VGG16: **man in red shirt is standing on the street** <br>Xception: **man in red shirt is walking along the beach** |
-| **a cat sleeping on a couch** | ![cat sleeping on couch A](https://ferrerofranco.github.io/images/09-A-cat%20sleeping%20on%20couch.png) | ![cat sleeping on couch B](https://ferrerofranco.github.io/images/09-B-cat%20sleeping%20on%20couch.jpg) |
-| - | VGG16: **young boy is playing with ball in the air** <br>Xception: **man in white shirt and jeans is petting machine** | VGG16: **young boy is playing with ball in the air** <br>Xception: **dog is running through the grass** |
-| **two guys playing chess** | ![two guys playing chess A](https://ferrerofranco.github.io/images/10-A-two%20guys%20playing%20chess.png) | ![two guys playing chess B](https://ferrerofranco.github.io/images/10-B-two%20guys%20playing%20chess.jpg) |
-| - | VGG16: **young boy is playing with ball in the air** <br>Xception: **man in black shirt and backpack is standing in front of crowd** | VGG16: **young boy is playing with ball in the air** <br>Xception: **man with his hair and red shirt is sitting in front of an art display** |
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![cat eating a mouse A](https://ferrerofranco.github.io/images/01-A-cat%20eating%20a%20mouse.png) | ![cat eating a mouse B](https://ferrerofranco.github.io/images/01-B-cat%20eating%20a%20mouse.jpg) |
+| VGG16 | **young boy is playing with ball in the air** | **dog is running through the grass** |
+| Xception | **two boys are playing on the edge of carnival ride** | **dog is jumping over fallen tree** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>a dog playing with a kid</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![dog playing with a kid A](https://ferrerofranco.github.io/images/02-A-dog%20playing%20with%20a%20kid.png) | ![dog playing with a kid B](https://ferrerofranco.github.io/images/02-B-dog%20playing%20with%20a%20kid.jpg) |
+| VGG16 | **two girls are playing in the water** | **young boy is playing with ball in the air** |
+| Xception | **man in black shirt and backpack is standing in front of glass store** | **dog is jumping over fallen tree** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>a macaw flying over a forest</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![macaw flying over a forest A](https://ferrerofranco.github.io/images/03-A-macaw%20flying%20over%20a%20forest.png) | ![macaw flying over a forest B](https://ferrerofranco.github.io/images/03-B-macaw%20flying%20over%20a%20forest.jpg) |
+| VGG16 | **the man is sitting on the street with his arms in the air** | **man in red shirt is standing on the street** |
+| Xception | **man in red shirt and blue pants is walking on the sidewalk** | **man in red shirt is standing on bleachers in front of leafless trees** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>a plane flying in the sky</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![plane flying in the sky A](https://ferrerofranco.github.io/images/04-A-plane%20flying%20in%20the%20sky.png) | ![plane flying in the sky B](https://ferrerofranco.github.io/images/04-B-plane%20flying%20in%20the%20sky.jpg) |
+| VGG16 | **dog is running through the grass** | **dog is running through the air to catch ball** |
+| Xception | **man in red shirt is cooking gun** | **dog is jumping over home** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>a woman and a man in the beach</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![woman and a man in the beach A](https://ferrerofranco.github.io/images/05-A-woman%20and%20a%20man%20in%20the%20beach.png) | ![woman and a man in the beach B](https://ferrerofranco.github.io/images/05-B-woman%20and%20a%20man%20in%20the%20beach.jpg) |
+| VGG16 | **two girls are playing in the water** | **two girls are playing in the water** |
+| Xception | **boy is jumping into the water** | **two people are standing on the beach looking at something** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>batman fighting crime</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![batman fighting crime A](https://ferrerofranco.github.io/images/06-A-batman%20fighting%20crime.png) | ![batman fighting crime B](https://ferrerofranco.github.io/images/06-B-batman%20fighting%20crime.jpg) |
+| VGG16 | **young boy is playing with ball in the air** | **young boy is playing with ball in the air** |
+| Xception | **man in black shirt and backpack is standing in front of skyscraper** | **man in red shirt is standing on the edge of bicycle** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>an octopus on coral reef</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![octopus on coral reef A](https://ferrerofranco.github.io/images/07-A-octopus%20on%20coral%20reef.png) | ![octopus on coral reef B](https://ferrerofranco.github.io/images/07-B-octopus%20on%20coral%20reef.jpg) |
+| VGG16 | **man in red shirt is standing on the street** | **man in red shirt is standing on the street** |
+| Xception | **two people are standing in front of house** | **man in red shirt is standing on the edge of dock** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>a palm tree on an island</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![palm tree on an island A](https://ferrerofranco.github.io/images/08-A-palm%20tree%20on%20an%20island.png) | ![palm tree on an island B](https://ferrerofranco.github.io/images/08-B-palm%20tree%20on%20an%20island.jpg) |
+| VGG16 | **dog is running through the grass** | **man in red shirt is standing on the street** |
+| Xception | **man in red shirt is standing on the edge of dock** | **man in red shirt is walking along the beach** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>a cat sleeping on a couch</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![cat sleeping on couch A](https://ferrerofranco.github.io/images/09-A-cat%20sleeping%20on%20couch.png) | ![cat sleeping on couch B](https://ferrerofranco.github.io/images/09-B-cat%20sleeping%20on%20couch.jpg) |
+| VGG16 | **young boy is playing with ball in the air** | **young boy is playing with ball in the air** |
+| Xception | **man in white shirt and jeans is petting machine** | **dog is running through the grass** |
+<br>
+<br>
+<p style="text-align: center;">Generating phrase: <b>two guys playing chess</b></p>
+
+| | Generated | Real Life |
+| - | ---- | ---- |
+| | ![two guys playing chess A](https://ferrerofranco.github.io/images/10-A-two%20guys%20playing%20chess.png) | ![two guys playing chess B](https://ferrerofranco.github.io/images/10-B-two%20guys%20playing%20chess.jpg) |
+| VGG16 | **young boy is playing with ball in the air** | **young boy is playing with ball in the air** |
+| Xception | **man in black shirt and backpack is standing in front of crowd** | **man with his hair and red shirt is sitting in front of an art display** |
+<br>
 
 # Conclusions
  I know this wasn't a very good test of the hypothesis, the models are a bit basic and I didn't spend any time fine tuning/modifying them, the sample size is tiny, photos have different resolutions and the batman one is from a videogame (it was surprisingly difficult to find a "real life" picture instead of comics and drawings). But this was mostly for fun! (and to learn) So it was ok.  
