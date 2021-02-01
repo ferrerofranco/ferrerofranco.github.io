@@ -17,12 +17,13 @@ We'll see!
 I worked with two models. The first one uses VGG16 and the second one uses Xception as a photo feature extractor, and they both use RNN and a FF layers as sequence processor and decoding respectively. Here are the links to the notebooks on the [former](https://colab.research.google.com/drive/1CEVUmu8giZuoNc7Qy17cvLcIK9m4ddFA?usp=sharing) and the [latter](https://colab.research.google.com/drive/16kWT9I57T8ZkEeJ5RCFjUa7dFqgusYuY?usp=sharing)
   
 After training them they were both subjected to a [BLEU](https://en.wikipedia.org/wiki/BLEU) score analysis, here are the scores:  
+
 | BLEU-n | VGG16 | Xception |
 | ------ | ----- | -------- |
-| BLEU-1 | 0.558444 |  0.347332 |
-| BLEU-2 | 0.299974 |  0.189991 |
-| BLEU-3 | 0.197463 |  0.130232 |
-| BLEU-4 | 0.086908 |  0.055207 |  
+| BLEU-1 | 0.558444 | 0.347332 |
+| BLEU-2 | 0.299974 | 0.189991 |
+| BLEU-3 | 0.197463 | 0.130232 |
+| BLEU-4 | 0.086908 | 0.055207 |  
 
 According to Jason Brownlee, as a reference, these are ballpark BLEU scores for a decent model:
 
