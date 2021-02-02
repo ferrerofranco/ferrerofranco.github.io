@@ -36,7 +36,7 @@ BLEU-4: **0.059** to **0.170**.
 As you can see, the VGG model seems to be on the upper spectrum of the reference scores, while the Xception model is on the lower, directly failing the BLEU-1 score.
 
 Now for the results of the experiment! (I haven't uploaded the notebook that runs both models at the same time and gets the BLEU scores, but I might if requested).  
-Note: Only the macaw image was generated with BigGAN, all others were generated with SIREN.
+Note: All generated images were generated with the first couple of linked notebooks, only the macaw image was generated with BigGAN, all others were generated with SIREN.
 
 <p style="text-align: center;">Generating phrase: <b>a cat eating a mouse</b></p>
 
@@ -130,7 +130,7 @@ Note: Only the macaw image was generated with BigGAN, all others were generated 
 <br>
 
 # Conclusions
- I know this wasn't a very good test of the hypothesis, the models are a bit basic and I didn't spend any time fine tuning/modifying them, the sample size is tiny, photos have different resolutions and the batman one is from a videogame (it was surprisingly difficult to find a "real life" picture instead of comics and drawings). But this was mostly for fun! (and to learn) So it was ok.  
+ I recognize the experiment itself has a few problems, the models are a bit basic and I didn't spend time fine tuning/modifying them, the sample size is tiny, photos have different resolutions and the batman one is from a videogame (it was surprisingly difficult to find a "real life" picture instead of comics and drawings). But this was mostly for fun! (and to learn) so I find it acceptable keeping that in mind.  
    
 Despite the BLEU scores, I actually like the Xception model's predictions better, was specially surprised with "two people are standing on the beach looking at something", that was pretty close!  
 You can see they both kind of default to some phrase when they are not sure what's going on, like "young boy is playing with ball" for VGG and "man in [colour] shirt standing in front of/the edge of [thing]" for Xception.  
