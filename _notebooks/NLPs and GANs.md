@@ -15,7 +15,7 @@ While in the process I also thought of a second question *would the image captio
 We'll see!  
 
 # How it went
-I worked with two models. The first one uses VGG16 and the second one uses Xception as a photo feature extractor, and they both use RNN and a FF layers as sequence processor and decoding respectively. Here are the links to the notebooks on the [former](https://colab.research.google.com/drive/1CEVUmu8giZuoNc7Qy17cvLcIK9m4ddFA?usp=sharing) and the [latter](https://colab.research.google.com/drive/16kWT9I57T8ZkEeJ5RCFjUa7dFqgusYuY?usp=sharing).s
+I worked with two models. The first one uses VGG16 and the second one uses Xception as a photo feature extractor, and they both use RNN and a FF layers as sequence processor and decoding respectively. Here are the links to the notebooks on the [former](https://colab.research.google.com/drive/1CEVUmu8giZuoNc7Qy17cvLcIK9m4ddFA?usp=sharing) and the [latter](https://colab.research.google.com/drive/16kWT9I57T8ZkEeJ5RCFjUa7dFqgusYuY?usp=sharing).
   
 After training them they were both subjected to a [BLEU](https://en.wikipedia.org/wiki/BLEU) score analysis, here are the scores:  
 
