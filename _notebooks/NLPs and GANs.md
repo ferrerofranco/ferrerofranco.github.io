@@ -146,4 +146,4 @@ If you'd like to contact me please do so [here](mailto:info@ferrerofranco.com).
 <br>
 <br>
 <br>
-Special thanks to Pablo Pistilli for pointing me to the GAN notebooks, and to Ivan Millanes generating some of the images used and for his constructive feedback.
+Special thanks to Pablo Pistilli for pointing me to the GAN notebooks, and to Ivan Millanes for generating some of the images used and for his constructive feedback.
